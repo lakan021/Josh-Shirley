@@ -121,7 +121,7 @@ nav a { color: var(--nav-fg); opacity: 0.6; }
 nav a:hover { opacity: 1; }
 .nav-toggle {
   display: none;
-  position: fixed;
+  position: absolute;
   right: 0; top: 0;
   margin: var(--gap-md);
   /* aspect-ratio: 2/2; */
