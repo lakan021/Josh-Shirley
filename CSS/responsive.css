@@ -17,7 +17,7 @@
 
   section.process .process-steps { grid-template-columns: 1fr; }
 
-  section.work .work-grid { display: block; }
+  section.work .work-grid { flex-direction: column; }
   section.work .work-item { width: 100%; height: 50vh; }
   /* section.work .work-item--large { grid-row: span 1; } */
 
